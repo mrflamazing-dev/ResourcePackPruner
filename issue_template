@@ -1,0 +1,25 @@
+Describe the bug
+A clear and concise description of what the bug is.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+    Go to '...'
+    Click on '...'
+    See error
+
+Expected behavior
+A clear description of what you expected to happen.
+
+Screenshots
+If applicable, add screenshots to help explain your problem.
+
+Log File (Required)
+Please provide your latest.log file. You can upload it to mclo.gs or pastebin.
+Do not paste the whole log here.
+
+Context:
+
+    Minecraft Version: 1.21.1
+    RPR Version:
+    Other Mods involved:
