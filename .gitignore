@@ -1,0 +1,36 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# Minecraft Run Data
+run/
+logs/
+crash-reports/
+debug/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# other
+eclipse
+run
+runs
+run-data
+
+repo

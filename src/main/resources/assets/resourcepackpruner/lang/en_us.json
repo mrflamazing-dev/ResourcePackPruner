@@ -1,0 +1,13 @@
+{
+  "itemGroup.resourcepackpruner": "Example Mod Tab",
+  "block.resourcepackpruner.example_block": "Example Block",
+  "item.resourcepackpruner.example_item": "Example Item",
+
+  "resourcepackpruner.configuration.title": "Resource Pack Pruner Configs",
+  "resourcepackpruner.configuration.section.resourcepackpruner.common.toml": "Resource Pack Pruner Configs",
+  "resourcepackpruner.configuration.section.resourcepackpruner.common.toml.title": "Resource Pack Pruner Configs",
+  "resourcepackpruner.configuration.items": "Item List",
+  "resourcepackpruner.configuration.logDirtBlock": "Log Dirt Block",
+  "resourcepackpruner.configuration.magicNumberIntroduction": "Magic Number Text",
+  "resourcepackpruner.configuration.magicNumber": "Magic Number"
+}

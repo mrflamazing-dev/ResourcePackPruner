@@ -1,0 +1,48 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml"
+
+# A version range to match for said mod loader - NeoForge 1.21 usually uses version 4
+loaderVersion="[4,)"
+
+# The license for your mod.
+license="GNU GPLv3"
+
+# A list of mods
+[[mods]]
+# The modid of the mod (Must match your main class annotation)
+modId="resourcepackpruner"
+
+# The version number of the mod
+version="1.0.0"
+
+# A display name for the mod
+displayName="Resource Pack Pruner"
+
+# The authors of the mod
+authors="MrFlamazing"
+
+# The description text for the mod
+description='''
+    Dynamically filters out resource pack assets for mods that are not currently installed. Prevents log spam and reduces I/O overhead by 'pruning' invalid textures and models before the game tries to load them
+    '''
+
+# The [[mixins]] block
+[[mixins]]
+# IMPORTANT: Ensure your mixin file in META-INF is named exactly this!
+config="resourcepackpruner.mixins.json"
+
+# Dependency: NeoForge
+[[dependencies.resourcepackpruner]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)" # Requires NeoForge 21.1 or higher
+ordering="NONE"
+side="BOTH"
+
+# Dependency: Minecraft
+[[dependencies.resourcepackpruner]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1, 1.22)" # Minecraft 1.21.1
+ordering="NONE"
+side="BOTH"
