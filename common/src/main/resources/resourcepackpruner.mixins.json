@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.mrflamazing.rpr.mixin",
+  "refmap": "resourcepackpruner.refmap.json",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinPackResources"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
